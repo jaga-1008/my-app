@@ -5,6 +5,7 @@
 	<artifactId>myweb</artifactId>
 	<packaging>war</packaging>
 	<version>0.0.4-SNAPSHOT</version>
+	<version>0.0.9</version>
 	<name>my-app</name>
 	<url>http://maven.apache.org</url>
 
@@ -38,11 +39,12 @@
 		 <snapshotRepository>
 		    <id>nexus</id>
 		    <url>http://172.31.0.95:8081/repository/webapp-snapshot/</url>
+		    <url>http://172.31.6.195:8081/repository/webapp-snapshot/</url>
 		 </snapshotRepository>
 		
 		<repository>
 		    <id>nexus</id>
-		    <url>http://172.31.0.95:8081/repository/webapp-release/</url>
+		    <url>http://172.31.6.195:8081/repository/webapp-release/</url>
 		</repository>
   	</distributionManagement>
 	
